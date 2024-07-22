@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/wp8520779-elegant-4k-wallpapers.jpg"); 
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+#head{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    backdrop-filter:blur(3px);
+    box-shadow:0px 0px 30px rgba(227, 228, 237, 0);
+    border:7px solid rgba(255, 255, 255, 0);
+    border-radius:20px;
+    margin-bottom:20px ;
+  }
+
+#todo{
+height:150px;
+}
+#icon{
+   height:75px;
+  transform:translate(5%,50%);
+}
+#searchInput {
+    
+    background-color: transparent;
+    border: none;
+    border-bottom:solid black;
+    border-bottom-style:dashed;
+    border-right-style:dashed;
+    color: black;
+    font-size: 20px;
+    outline: none;
+    margin-top:20PX;
+    width:80%;
+    text-align: center;
+}
+  
+#searchInput::placeholder {
+    color: hsl(0, 1%, 68%);
+    text-align: center;
+  }
+
+#add{
+    border-radius:10px;
+    font-size:15px;
+    color:  rgb(197, 168, 168);; 
+    background-color:rgb(0, 0, 0);
+    margin-top:0px;
+ }
+    
+#txt{
+    margin-left:60px;
+    font-size:25px;
+    text-align:left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    border:none;
+    border-bottom:solid black;
+    backdrop-filter:blur(90px);
+    box-shadow:0px 0px 30px rgba(227, 228, 237, 0);
+    border-radius:5px;
+    text-align: center;
+}
+#main{
+
+  backdrop-filter:blur(30px);
+  box-shadow:0px 0px 30px rgba(255, 255, 255, 0.389);
+  border:7px solid rgba(255, 255, 255, 0);
+  border-radius:20px;
+}
+  .cross{
+    background-color: rgb(255, 255, 255);
+}
